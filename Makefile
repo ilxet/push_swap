@@ -6,12 +6,12 @@
 #    By: aadamik <aadamik@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/06 18:15:19 by aadamik           #+#    #+#              #
-#    Updated: 2024/03/07 17:04:16 by aadamik          ###   ########.fr        #
+#    Updated: 2024/03/10 19:35:18 by aadamik          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -fsanitize=address
 RM = rm -f
 
 SRCS = do_the_best_move.c error2.c error.c free_issort_flowest.c get_values.c \
